@@ -2,4 +2,5 @@ git init // for initializing repository
 git add <file>
 git commit -m "your commit message" /zum Commiten
 
-git reset --soft HEAD~1
+git reset --soft HEAD~1   //wenn noch nicht auf github gepushed
+git revert +Commit ID   //wenn schon auf Github gepushed
